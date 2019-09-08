@@ -10,14 +10,7 @@ description = "An SDL2 backend for Glium - a high-level OpenGL wrapper for the R
 
 [dependencies]
 sdl2 = "0.32"
-
-[dependencies.glium]
 glium = { git = "https://github.com/halvnykterist/glium.git" }
-# Do not enable any features by default, as to not bring in unwanted dependencies
-# (Cargo seems to apply a "union" of requested features across projects for any given dependency).
-# Instead, Let the library user define which features they want.
-features = []
-default-features = false
 
 [dev-dependencies]
 clock_ticks = "0.1.0"
