@@ -10,7 +10,7 @@ description = "An SDL2 backend for Glium - a high-level OpenGL wrapper for the R
 
 [dependencies]
 sdl2 = "0.33"
-glium = "0.25"
+glium = "0.27"
 
 [dev-dependencies]
 clock_ticks = "0.1.0"
